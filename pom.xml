@@ -17,6 +17,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.release>11</maven.compiler.release>
+	  <sonar.projectKey>demo</sonar.projectKey>
   </properties>
 
     <profiles>
@@ -31,7 +32,7 @@
                   http://localhost:9000
                 </sonar.host.url>
 		<sonar.token>
-			sqp_ac6080601ff56c48fb9c5f9fb45ed08c65ecbce7
+			sqp_a768ad4530d13f42eb1d6f7decc070896d14705f
 		</sonar.token>
 	        <sonar.login>admin</sonar.login>
 	        <sonar.password>password</sonar.password>
